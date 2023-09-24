@@ -1,0 +1,56 @@
+css
+/* Set the background color of the body */
+body {
+ background-color: #f0f0f0;
+}
+
+/* Set the font family and size for all paragraphs */
+p {
+ font-family: Arial, sans-serif;
+ font-size: 16px;
+ color: #333;
+}
+
+/* Set the font family and size for all headings */
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Roboto', sans-serif;
+ color: #4a4a4a;
+}
+
+/* Set the background color and padding for all buttons */
+button {
+ background-color: #007bff;
+ color: #fff;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ font-family: Arial, sans-serif;
+ font-size: 16px;
+}
+
+/* Set the background color and padding for all links */
+a {
+ background-color: #007bff;
+ color: #fff;
+ padding: 5px 10px;
+ border-radius: 5px;
+ text-decoration: none;
+ font-family: Arial, sans-serif;
+ font-size: 16px;
+}
+@keyframes button-click {
+  0% {
+    transform: scale(1);
+ }
+  50% {
+    transform: scale(0.9);
+ }
+  100% {
+    transform: scale(1);
+ }
+}
+
+button {
+ animation: button-click 0.3s ease-in-out;
+}
